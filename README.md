@@ -3,11 +3,14 @@
 
 # Question 1 (Naked Twins)
 Q: How do we use constraint propagation to solve the naked twins problem?  
-A: *Student should provide answer here*
+A: if there is a pair of boxes with identical values in a unit (row, column, diagonal)
+	the values can be removed from the other boxes of the unit. The same reasoning
+	can be applyed also for set of boxes > 2 e.g. tree boxes all with the same tree values.
 
 # Question 2 (Diagonal Sudoku)
 Q: How do we use constraint propagation to solve the diagonal sudoku problem?  
-A: *Student should provide answer here*
+A: we use the constraint propagation in the same way as the non diagonal sudoku,
+	the only difference is that the boxes on the main diagonal have more peers.
 
 ### Install
 
